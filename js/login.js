@@ -8,7 +8,7 @@ $(document).ready(function () {
         if (userName !== 'admin' && password !== 'admin') {
           alert('Mời nhập : admin/admin ');
         } else {
-          window.location = "/chart/home.html";
+          window.location = "/home";
         }
       } else {
         alert('Mời điền đầy đủ: admin/admin!!!');
